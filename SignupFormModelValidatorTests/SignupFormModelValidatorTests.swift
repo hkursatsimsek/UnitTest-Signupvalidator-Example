@@ -64,6 +64,7 @@ class SignupFormModelValidatorTests: XCTestCase {
         // Assert
         XCTAssertTrue(doPasswordMatch, "The doPasswordMAtch() should have returned TRUE for matching passwords but it has returned FALSE")
         print("TEST ICIN")
+        print("GitHub Hook Testi")
     }
     
     func testSignupFormValidator_WhenNotMatchingPasswordsProvided_ShouldReturnFalse() {
