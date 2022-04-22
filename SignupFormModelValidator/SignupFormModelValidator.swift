@@ -37,6 +37,6 @@ class SignupFormModelValidator {
 //        
 //        return returnValue
         
-        return password == repeatPassword
+        return password != repeatPassword
     }
 }
