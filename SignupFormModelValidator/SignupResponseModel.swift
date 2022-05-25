@@ -1,5 +1,5 @@
 //
-//  SignupErrors.swift
+//  SignupResponseModel.swift
 //  SignupFormModelValidator
 //
 //  Created by Kürşat Şimşek on 23.04.2022.
@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum SignupErrors {
-    
+struct SignupResponseModel: Decodable {
+    let status: String
 }
