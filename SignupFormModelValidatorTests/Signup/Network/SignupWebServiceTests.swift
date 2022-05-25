@@ -25,7 +25,7 @@ class SignupWebServiceTests: XCTestCase {
 //        let sut = SignupWebService(urlString: "https://ad8a073d-d2fe-4c0e-a419-b8035e910005.mock.pstmn.io/users")
         let sut = SignupWebService(urlString: "http://localhost:5858/users")
         
-        let signupFormRequestModel = SignupFormRequestModel(firstName: "Kürşat", lastName: "Şimşek", email: "test@test.com", password: "12345678")
+        let signupFormRequestModel = SignupFormRequestModel(firstName: "Tuğşat", lastName: "Şimşek", email: "test@test.com", password: "12345678")
         
         /*
          XCTest beklentilerinin iki bölümü vardır: expectation ve waiter.
